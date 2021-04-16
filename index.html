@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Voting for the next United States' President</title>
+        <title>Cast your Vote! - Vote.now</title>
 
         <!-- Components -->
         <link
@@ -16,13 +16,16 @@
 
     <body>
         <nav class="navbar">
-            <img src="https://lh3.googleusercontent.com/proxy/tdqqUAFXWwMlc_zXXLXP_jSlhOXqkd0LLxo9Bg53PP9Od-AXCgzyU_g-123pse8GSj0hWQ9JdfY3tCuvL3MXaD0tqOzJyNM" width="50" height="30" class="d-inline-block align-top" alt="American Flag">
+            <img src="/Components/Images/flag.png" width="50" height="30" class="d-inline-block align-top" alt="American Flag">
             <h1>Vote.now</h1>
         </nav>
 
         <div id="vote">
             <form>
-                <h1>Make your Vote!</h1>
+                <h1>Make your Vote!</h1> 
+                
+                <br>
+
                 <input type="radio" id="nixon" name="canidate" value="winner">
                 <label for="nixon">Richard Nixon</label>
 
@@ -32,10 +35,13 @@
                 <label for="wallace">George Wallace</label>
 
                 <br>
+                <br>
 
-                <input type="submit" value="Submit">
+                <button onclick="randomPop()">Submit</button>
             </form>
         </div>
+
+        <div id="popUp"></div>
 
     </body>
 
