@@ -1,0 +1,29 @@
+html{
+    background: url(/Components/Images/background.jpg);
+}
+
+body{
+    background: url(/Components/Images/background.jpg);
+}
+
+nav{
+    font-variant: small-caps;
+    background-color: rgb(1, 1, 110);
+    padding-left: 2em;    
+    color: white;
+}
+
+nav h1{
+    padding-right: 2em;
+}
+
+#vote{
+    background-color: white;
+    text-align: center;
+    width: 75%;
+    padding: 1em;
+    padding-top: 10em;
+    padding-bottom: 35em;
+    margin: auto;
+    vertical-align: middle;
+}
